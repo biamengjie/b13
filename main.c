@@ -33,13 +33,23 @@ int main()
         {
             char x;
             printf("shanchuzuihouyigeminganzifu:\n");
-            index=index-1;
+            index = index - 1;
             printf("shanchuchenggong,dianjihuichejixu:\n");
             scanf("%c", &x);
             scanf("%c", &x);
         }
         if (a == 3)
         {
+            printf("xianshisuoyoudeminganzifu:\n");
+            for (int i = 0; i < index; i++)
+            {
+                printf("%c\n",arr[i]);
+            }
+                printf("dianjihuichejixu:\n");
+                char x;
+                scanf("%c", &x);
+                scanf("%c", &x);
+            
         }
         if (a == 4)
         {
